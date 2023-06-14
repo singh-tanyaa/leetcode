@@ -8,5 +8,6 @@ public:
             temp[(i+k)%n]=nums[i];
             ///copy temp into nums array
         }
-        nums = temp;}
+        nums=temp;
+    }
 };
